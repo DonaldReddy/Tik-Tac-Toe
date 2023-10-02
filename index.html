@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <h1 id="name">
+        Tik-Tac-Toe
+    </h1>
+
+    <p id="result"></p>
+
+    <div class="main">
+        <div class="container">
+            <div id="0" class="cell"><input type="text" id="i0" maxlength="1" disabled /></div>
+            <div id="1" class="cell"><input type="text" id="i1" maxlength="1" disabled /></div>
+            <div id="2" class="cell"><input type="text" id="i2" maxlength="1" disabled /></div>
+            <div id="3" class="cell"><input type="text" id="i3" maxlength="1" disabled /></div>
+            <div id="4" class="cell"><input type="text" id="i4" maxlength="1" disabled /></div>
+            <div id="5" class="cell"><input type="text" id="i5" maxlength="1" disabled /></div>
+            <div id="6" class="cell"><input type="text" id="i6" maxlength="1" disabled /></div>
+            <div id="7" class="cell"><input type="text" id="i7" maxlength="1" disabled /></div>
+            <div id="8" class="cell"><input type="text" id="i8" maxlength="1" disabled /></div>
+        </div>
+        <div class="rules">
+            <h2>
+                Rules
+            </h2>
+            <ul>
+                <li>This is a 2-Players Game.</li>
+                <li>In each turn player has to choose numbers from 0-9.</li>
+                <li>Choose numbers which aren't there on the grid.</li>
+                <li>The first Player to get Row/Column/Diagonal Sum equal to 15 WIN's.</li>
+            </ul>
+        </div>
+    </div>
+
+    <button id="start" onclick="start()">Start</button>
+
+
+    <script src="./gameEngine.js"></script>
+
+</body>
+
+</html>

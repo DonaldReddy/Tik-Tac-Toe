@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgb(0, 98, 255), rgb(140, 0, 255));
+    color: white;
+}
+
+#name {
+    position: relative;
+    top: 30px;
+}
+
+.main {
+    height: 90vh;
+    width: 70vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+
+.container {
+    height: 320px;
+    width: 320px;
+    padding: 10px;
+    background: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    box-shadow: rgb(255, 0, 0) 0px 0px 40px;
+    border-radius: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-radius: 5px;
+    background: linear-gradient(rgb(0, 98, 255), rgb(85, 0, 255));
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cell input {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 3px;
+    caret-color: transparent;
+    background: transparent;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rules {
+    width: 700px;
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 50px;
+}
+
+.active {
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
+#start {
+    height: 50px;
+    width: 150px;
+    background: rgb(1, 141, 1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    right: 160px;
+    bottom: 30px;
+}
+
+#result {
+    width: 400px;
+    height: 60px;
+    position: relative;
+    top: 50px;
+    right: 160px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
